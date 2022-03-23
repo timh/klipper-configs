@@ -77,3 +77,5 @@
 # Available options:
 #   mjpeg [default] - stable MJPG-streamer
 #camera_streamer=mjpeg
+
+camera_usb_options="-d /dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB_Live_camera_SN0001-video-index0 -r 1920x1080 -f 60"
